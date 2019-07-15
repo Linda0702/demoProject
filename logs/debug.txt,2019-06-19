@@ -1,0 +1,8 @@
+2019-06-19 20:38:51,546 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登陆账号名]输入内容:[]
+2019-06-19 20:38:53,618 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登陆账号名]输入内容:[system]
+2019-06-19 20:52:45,272 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登录账号名]输入内容:[]
+2019-06-19 20:52:45,311 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登录密码]输入内容:[123456]
+2019-06-19 20:52:45,403 INFO [main] com.anso.auto.phoeinx.base.BaseTester.click(170) | 点击元素[登录按钮]
+2019-06-19 20:52:48,542 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登录账号名]输入内容:[system]
+2019-06-19 20:52:48,653 INFO [main] com.anso.auto.phoeinx.base.BaseTester.type(161) | 往[登录密码]输入内容:[]
+2019-06-19 20:52:48,695 INFO [main] com.anso.auto.phoeinx.base.BaseTester.click(170) | 点击元素[登录按钮]

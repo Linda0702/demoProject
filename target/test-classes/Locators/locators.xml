@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 描述一个元素的定位信息
+    1、在xx页面
+    2、定位方式
+    3、定位值
+    4、最好每个页面放一个locator
+
+    程序中——描述，抽象——类型（Locator）定位器
+-->
+<pages>
+    <!-- page的name必须取用到这些locator的类的reference-->
+    <page name="com.anso.auto.phoeinx.testcase.testLogin_copy2">
+        <locator by="xpath" value="//input[@type='text']" desc="登录账号名"></locator>
+        <locator by="xpath" value="//input[@type='password']" desc="登录密码"></locator>
+        <locator by="xpath" value="//button" desc="登录按钮"></locator>
+    </page>
+    <page name="com.anso.auto.phoeinx.testcase.CS_CloudPlatform_SystemSetting">
+        <locator by="xpath" value="//div[@class='el-input']/input[@type='text']" desc="账号"></locator>
+        <locator by="xpath" value="//div[@class='el-input']/input[@type='password']" desc="密码"></locator>
+        <locator by="xpath" value="//div[@class='el-input el-input-group el-input-group--append']/input" desc="验证码"></locator>
+        <locator by="xpath" value="//button[@class='el-button el-button--primary el-button--small']" desc="登录按钮"></locator>
+        <locator by="xpath" value="//div[@class='title-item' and text()='云平台']" desc="云平台子系统"></locator>
+        <locator by="xpath" value="//i[@class='icon iconfont  icon-shousuoanniu-close']" desc="菜单展开按钮"></locator>
+        <locator by="xpath" value="//span[text()='系统设置']" desc="系统设置菜单"></locator>
+        <locator by="xpath" value="//span[text()='用户管理']" desc="用户管理菜单"></locator>
+        <locator by="xpath" value="//tr[@class='el-table__row']" desc="用户列表行"></locator>
+        <locator by="xpath" value="//div[@class='el-input el-input--suffix']/input" desc="分页下拉选"></locator>
+        <locator by="xpath" value="//li[@class='el-select-dropdown__item']/span[text()='30条/页']" desc="30条/页"></locator>
+    </page>
+    <page name="com.anso.auto.phoeinx.testcase.QY_SCADA_BaseSetting">
+        <locator by="xpath" value="//input[@type='text']" desc="登录账号名"></locator>
+        <locator by="xpath" value="//input[@type='password']" desc="登录密码"></locator>
+        <locator by="xpath" value="//button" desc="登录按钮"></locator>
+        <locator by="xpath" value="//div[@class='title-item']" desc="SCADA"></locator>
+        <locator by="xpath" value="//span/font/font[text()='基础设置']" desc="基础设置菜单"></locator>
+        <locator by="xpath" value="//span/font/font[text()='组织管理']" desc="组织管理菜单"></locator>
+        <locator by="xpath" value="//button[@class='el-button el-button--default el-button--small']" desc="添加下级1"></locator>
+        <locator by="xpath" value="//button[@class='el-button el-button--default el-button--small'][2]" desc="添加下级2"></locator>
+        <locator by="xpath" value="//input[@class='el-input__inner' and @type='text' and @maxlength='15']" desc="区域名称"></locator>
+        <locator by="xpath" value="//input[@class='el-input__inner' and @type='text' and @maxlength='15'][2]" desc="区域别名"></locator>
+        <locator by="xpath" value="//i[@class='queding']" desc="保存按钮"></locator>
+    </page>
+</pages>

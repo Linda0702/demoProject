@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="UITest">
+        <classes>
+            <!-- 添加不同测试类文件 -->
+            <class name="com.anso.auto.phoeinx.testcase.QY_SCADA_BaseSetting"/>
+        </classes>
+    </test> <!-- Test -->
+    <!--testNG参数-->
+    <!--
+    目前支持的浏览器请按如下配置：IE，chrome，Firefox
+    -->
+    <parameter name="browserType" value="chrome"></parameter>
+    <!--驱动文件的路径-->
+    <parameter name="driverPath" value="C:\Users\admin\AppData\Local\Google\Chrome\Application\chromedriver.exe"></parameter>
+    <!--selenium版本号-->
+    <parameter name="seleVersion" value="3.x"></parameter>
+    <!--浏览器执行文件路径-->
+    <parameter name="browserEXEPath" value="路径"></parameter>
+    <!-- 添加reportng的HTML监听器-->
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="com.anso.auto.phoeinx.listener.PhoenixListener"></listener>
+    </listeners>
+
+</suite> <!-- Default Suite -->
